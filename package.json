@@ -63,11 +63,6 @@
     "lint-staged": "^12.1.5",
     "prettier": "^2.5.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": "eslint --fix",
     "*.{css,md,html,json}": "prettier --write"
