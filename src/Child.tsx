@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Child = () => {
-    return (
-        <div>
-           <h1>testing lint staged for unstaged files:)</h1> 
+  return (
+    <div>
+      <h1>testing lint staged for unstaged files:)</h1>
+    </div>
+  );
+};
 
-           
-        </div>
-    )
-}
-
-export default Child
+export default Child;
